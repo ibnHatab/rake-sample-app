@@ -10,19 +10,26 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
+=======
 
-* Database creation
 
-* Database initialization
+== Deployment
 
-* How to run the test suite
+* Staging https://rails-tutorial-ibnhatab.c9.io/
+* Production https://rake-hello-app.herokuapp.com/
 
-* Services (job queues, cache servers, search engines, etc.)
+== README
 
-* Deployment instructions
+This is Hello Application from Rail tutorial
 
-* ...
+* Ruby version 2.1.5
 
+* System build on Rake 4.2.0
+
+* Configuration in production runs PostgreSQL
+
+
+FIXME:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
