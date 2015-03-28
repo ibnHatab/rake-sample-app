@@ -1,35 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Hello Application from Rail tutorial
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Ruby version 2.1.5
+* System build on Rake 4.2.0
+* Configuration in production runs PostgreSQL
 
 * Configuration
+** Minimum dependenties from `rail _4.2.0_ new sample_app`.
+** Extra dependentie are PSQL for Heroku deployment and 
+  minitest reporter in test configuratio.
+
 =======
 
 
 == Deployment
-
 * Staging https://rails-tutorial-ibnhatab.c9.io/
-* Production https://rake-hello-app.herokuapp.com/
+* Production https://rake-sample-app.herokuapp.com/
 
-== README
-
-This is Hello Application from Rail tutorial
-
-* Ruby version 2.1.5
-
-* System build on Rake 4.2.0
-
-* Configuration in production runs PostgreSQL
-
-
-FIXME:
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
