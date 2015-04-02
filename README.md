@@ -8,11 +8,10 @@ This is Hello Application from Rail tutorial
 
 * Configuration
 ** Minimum dependenties from `rail _4.2.0_ new sample_app`.
-** Extra dependentie are PSQL for Heroku deployment and 
+** Extra dependentie are PSQL for Heroku deployment and
   minitest reporter in test configuratio.
 
 =======
-
 
 == Deployment
 * Staging https://rails-tutorial-ibnhatab.c9.io/

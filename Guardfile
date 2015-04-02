@@ -4,7 +4,7 @@
 ## Uncomment and set this to only include directories you want to watch
 # directories %w(app lib config test spec features)
 
-## Uncomment to clear the screen before every task
+## Uncomment t o clear the screen before every task
 # clearing :on
 
 ## Guard internally checks for changes in the Guardfile and exits.
@@ -42,6 +42,7 @@ guard :minitest, spring: true, all_on_start: false  do
   watch(%r{^lib/(.+)\.rb$})                               { |m| "test/lib/#{m[1]}_test.rb" }
   watch(%r{^test/.+_test\.rb$})
   watch(%r{^test/test_helper\.rb$}) { 'test' }
+
 
   # Rails < 4
   # watch(%r{^app/controllers/(.*)\.rb$}) { |m| "test/functional/#{m[1]}_test.rb" }
