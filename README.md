@@ -17,4 +17,9 @@ This is Hello Application from Rail tutorial
 * Staging https://rails-tutorial-ibnhatab.c9.io/
 * Production https://rake-sample-app.herokuapp.com/
 
+$ git push heroku
+$ heroku pg:reset DATABASE --confirm rake-sample-app
+$ heroku run rake db:migrate
+$ heroku run rake db:seed
+
 <tt>rake doc:app</tt>.

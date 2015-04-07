@@ -25,7 +25,7 @@ cat_video:
 most_recent:
   content: "Writing a short test"
   created_at: <%= Time.zone.now %>
-  user: mallory
+  user: lana
 
 ants:
   content: "Oh, is that what you want? Because that's how you get ants!"
