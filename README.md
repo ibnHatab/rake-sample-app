@@ -1,6 +1,11 @@
 == README
 
-This is Hello Application from Rail tutorial
+This is Hello Application from Rail tutorial.  Application includes
+ examples of all the major features of Rails, including models, views,
+ controllers, templates, partials, filters, validations, callbacks,
+ has_many/belongs_to and has_many :through associations, security,
+ testing, and deployment.
+
 
 * Ruby version 2.1.5
 * System build on Rake 4.2.0
